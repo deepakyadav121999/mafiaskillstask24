@@ -62,22 +62,29 @@ background-color: rgb(255, 255, 255);
     height: 90px;
     display: flex;
     align-items: center;
-    
+   
 }
 .inside_list{
     display: flex;
     justify-content: center;
     border: 0.1px solid rgb(218, 215, 215);
     border-radius: 7px;
+
+    align-items: center;
   
 }
 .list_right{
     display: flex;
     flex-direction: column;
-   
-    height: 90px;
+
+    height: 70px;
     width: 60%;
-    justify-content: flex-start;
+ 
+    margin-top: -10px;
+    gap: 0px;
+}
+.ms{
+    margin-top: -10px;
 }
 .last_btns{
     width: 20%;
@@ -100,7 +107,7 @@ background-color: rgb(255, 255, 255);
     flex-direction: column;
     justify-content: center;
    background-color: whitesmoke;
-  gap: 5px;
+ 
     padding: 10px;
 }
 .shoe_details{

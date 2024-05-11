@@ -43,7 +43,7 @@ const Cart = () => {
                 </div>
                 <div className="list_right">
                   <p>{item.name}</p>
-                  <p>${item.price}</p>
+                  <p className ="ms">${item.price}</p>
                 </div>
                 <div className="last_btns">
                   <p className='minus' onClick={() => handleQuantityChange(item, -1)}>-</p>
